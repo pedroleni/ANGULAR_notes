@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+    "useDefineForClassFields": true,
+
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+
+    /* Bundler mode */
+
+    "allowImportingTsExtensions": true,
+
+    "emitDecoratorMetadata": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": false,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}
