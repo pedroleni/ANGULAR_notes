@@ -15,8 +15,7 @@ export class ProfilePhoto { }
 Usas un componente creando un elemento HTML que coincida con su selector en la plantilla de otros componentes:
 
 ```tsx
-ts
-CopiarEditar
+
 @Component({
   template: `
     <profile-photo />

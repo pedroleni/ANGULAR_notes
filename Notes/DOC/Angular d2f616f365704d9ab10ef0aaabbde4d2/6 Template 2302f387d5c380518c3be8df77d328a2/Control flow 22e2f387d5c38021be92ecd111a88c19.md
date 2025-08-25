@@ -170,8 +170,7 @@ Esto es lo que verías para cada ciclo:
 Debes tener activado el **Control Flow Syntax** en tu `tsconfig.app.json`:
 
 ```json
-json
-CopiarEditar
+
 {
   "compilerOptions": {
     "enableNgNewControlFlow": true}

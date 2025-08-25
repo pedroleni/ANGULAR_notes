@@ -38,8 +38,7 @@ El objeto pasado al decorador `@Component` se llama **metadatos del componente**
 Los componentes pueden incluir opcionalmente una lista de estilos CSS que se aplican al DOM de ese componente:
 
 ```tsx
-ts
-CopiarEditar
+
 @Component({
   selector: 'profile-photo',
   template: `<img src="profile-photo.jpg" alt="Tu foto de perfil">`,
